@@ -162,7 +162,7 @@ public class langLexer extends Lexer {
 	            }
 		
 		public void generateCode(){
-			program.generateTarget();
+			program.generateJavaTarget();
 		}
 
 

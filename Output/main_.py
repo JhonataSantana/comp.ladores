@@ -2,13 +2,14 @@ import sys
 def main(args):
 	
 	
-	a = 1
+	a1 = 10
 
-	b = "Teste"
+	a2 = 3
 
-	print(a)
+	while (a1>a2) :
+			print(a1)
+			a1 = a1-1
 
-	print(b)
 
 
 if __name__ == '__main__':

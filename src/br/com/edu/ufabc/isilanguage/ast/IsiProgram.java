@@ -39,7 +39,7 @@ public class IsiProgram {
 		str.append("}");
 		
 		try {
-			FileWriter fr = new FileWriter(new File("Output/MainClass.java"));
+			FileWriter fr = new FileWriter(new File("Output/Main.java"));
 			fr.write(str.toString());
 			fr.close();
 		}
