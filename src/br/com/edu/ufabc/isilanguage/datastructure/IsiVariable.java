@@ -12,8 +12,10 @@ public class IsiVariable extends IsiSymbol{
 
     public IsiVariable(String name, int type, String value) {
         super(name);
-        setType(type);
+        //setType(type);
 		setValue(value);
+		this.type = type;
+		this.isUsed();
     }
 
      public int getType() {

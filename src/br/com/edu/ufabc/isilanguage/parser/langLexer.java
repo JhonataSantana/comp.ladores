@@ -47,20 +47,20 @@ public class langLexer extends Lexer {
 	};
 
 	public static final String[] ruleNames = {
-		"T__0", "T__1", "T__2", "T__3", "T__4", "T__5", "T__6", "T__7", "T__8", 
-		"AP", "FP", "SC", "OP", "ATTR", "VIR", "ACH", "FCH", "OPREL", "ID", "NUMBER", 
-		"TEXTO", "WS"
+		"T__0", "T__1", "T__2", "T__3", "T__4", "T__5", "T__6", "T__7", "T__8", "T__9", "T__10", "T__11",
+		"AP", "FP", "SC", "OP", "ATTR", "VIR", "ACH", "FCH", "OPREL", "BOOLEAN", "OPFUNCAOMAT", 
+		"ID", "NUMBER", "TEXT", "CHAR", "WS"
 	};
 
 	private static final String[] _LITERAL_NAMES = {
-		null, "'programa'", "'fimprog.'", "'numero'", "'texto'", "'leia'", "'escreva'", 
-		"'enquanto'", "'se'", "'senao'", "'('", "')'", "'.'", null, "':='", "','", 
-		"'{'", "'}'"
+		null, "'programa'", "'fimprog.'", "'numero'", "'texto'", "'caractere'", 
+		"'logico'", "'leia'", "'escreva'", "'se'", "'senao'", "'enquanto'", "'faca'", 
+		"'('", "')'", "'.'", null, "':='", "';'", "'='", "','", "'{'", "'}'"
 	};
 	private static final String[] _SYMBOLIC_NAMES = {
-		null, null, null, null, null, null, null, null, null, null, "AP", "FP", 
-		"SC", "OP", "ATTR", "VIR", "ACH", "FCH", "OPREL", "ID", "NUMBER", "TEXTO", 
-		"WS"
+		null, null, null, null, null, null, null, null, null, null, null, null, "AP", "FP", 
+		"SC", "OP", "ATTR", "VIR", "ACH", "FCH", "OPREL", "BOOLEAN", "OPFUNCAOMAT", 
+		"ID", "NUMBER", "TEXT", "CHAR", "WS"
 	};
 	public static final Vocabulary VOCABULARY = new VocabularyImpl(_LITERAL_NAMES, _SYMBOLIC_NAMES);
 

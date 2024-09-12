@@ -44,9 +44,9 @@ public class langParser extends Parser {
 	};
 
 	private static final String[] _LITERAL_NAMES = {
-			null, "'programa'", "'fimprog.'", "'numero'", "'texto'", "'leia'", "'escreva'",
-			"'enquanto'", "'se'", "'senao'", "'('", "')'", "'.'", null, "':='", "','",
-			"'{'", "'}'"
+			null, "'programa'", "'fimprog.'", "'numero'", "'texto'", "'caractere'", 
+			"'logico'", "'leia'", "'escreva'", "'se'", "'senao'", "'enquanto'", "'faca'", 
+			"'('", "')'", "'.'", null, "':='", "';'", "'='", "','", "'{'", "'}'"
 	};
 	private static final String[] _SYMBOLIC_NAMES = {
 			null, null, null, null, null, null, null, null, null, null, "AP", "FP",

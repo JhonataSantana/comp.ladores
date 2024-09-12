@@ -26,7 +26,7 @@ public abstract class IsiSymbol {
 	}
 
 	public void setUsed() {
-		isUsed = true;
+		this.isUsed = true;
 	}
 	public boolean isInitialized() {
 		return isInitialized;

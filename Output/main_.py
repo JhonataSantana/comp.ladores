@@ -2,11 +2,19 @@ import sys
 def main(args):
 	
 	
-	a = float(input())
-	b = input()
-	print(a)
+	
+	a1 = 1
 
-	print(b)
+	a2 = 2
+
+	a3 = 4
+
+	if (a1>a2) :
+		print(a1)
+
+	else :
+		print(a3)
+
 
 
 if __name__ == '__main__':
