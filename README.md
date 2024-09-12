@@ -11,8 +11,8 @@ https://youtu.be/RfdYl2Ktlik
 	</thead>
 	<tbody>
 	<tr>
-		<td>Gabriela </td>
-		<td></td>
+		<td>Gabriela Sampaio Magiri</td>
+		<td>11201922191</td>
 	</tr>
 	<tr>
 		<td>Jhonata Santana Louzada de Aguiar</td>

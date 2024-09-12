@@ -33,9 +33,11 @@ public class langLexer extends Lexer {
 	protected static final PredictionContextCache _sharedContextCache =
 		new PredictionContextCache();
 	public static final int
-		T__0=1, T__1=2, T__2=3, T__3=4, T__4=5, T__5=6, T__6=7, T__7=8, T__8=9, 
-		AP=10, FP=11, SC=12, OP=13, ATTR=14, VIR=15, ACH=16, FCH=17, OPREL=18, 
-		ID=19, NUMBER=20, TEXTO=21, WS=22;
+		T__0=1, T__1=2, T__2=3, T__3=4, T__4=5, T__5=6, 
+		T__6=7, T__7=8, T__8=9, T__9=10, T__10=11, T__11=12, 
+		AP=13, FP=14, SC=15, OP=16, ATTR=17, VIR=18, ACH=19, 
+		FCH=20, OPREL=21, BOOLEAN=22, OPFUNCAOMAT=23, ID=24, 
+		NUMBER=25, TEXT=26, CHAR=27, WS=28;
 	public static String[] channelNames = {
 		"DEFAULT_TOKEN_CHANNEL", "HIDDEN"
 	};
