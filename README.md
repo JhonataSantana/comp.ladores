@@ -1,8 +1,7 @@
 ## Projeto de Compiladores
 
 ## Link do Vídeo
-https://youtu.be/RfdYl2Ktlik
-
+LINKKKK
 ## Grupo
 <table> 
 	<thead>
@@ -35,4 +34,9 @@ https://youtu.be/RfdYl2Ktlik
 - [x] Aceitar números decimais
 - [x] Verificar se a variável já foi previamente declarada
 - [x] Verificar se a variável foi declarada e não foi usada
+- [x] Verificar se a variável está sendo usada sem ter valor inicial
 - [x] Geração de várias linguagens-alvo + explicação da saída em java - (adicional)
+- [x] 2 tipos de variáveis adicionais (adicional)
+- [x] Inserção de operadores lógicos (adicional)
+- [x] Interpretador para a linguagem (adicional)
+- [x] Verificação de tipos de variáveis existentes (adicional)

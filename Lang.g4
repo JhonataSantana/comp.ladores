@@ -247,8 +247,7 @@ cmdattrib	:  ID { verificaID(_input.LT(-1).getText());
 cmdenquanto	: 'enquanto'
 				AP
 				ID {
-					_expreRepetition = _input.LT(-1).getText(); #n sei se deixa assim
-						
+					_expreRepetition = _input.LT(-1).getText();
 				}
 				OPREL {_expreRepetition += _input.TL(-1).getText(); }
 				(ID | NUMBER) {_expreRepetition += _input.LT(-1).getText(); }

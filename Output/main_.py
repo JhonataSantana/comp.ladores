@@ -2,19 +2,13 @@ import sys
 def main(args):
 	
 	
-	
-	a1 = 1
+	a = 1
 
-	a2 = 2
+	b = "Teste"
 
-	a3 = 4
+	print(a)
 
-	if (a1>a2) :
-		print(a1)
-
-	else :
-		print(a3)
-
+	print(b)
 
 
 if __name__ == '__main__':
